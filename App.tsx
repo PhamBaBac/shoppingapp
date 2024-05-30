@@ -3,10 +3,10 @@ import React from 'react'
 
 const App = () => {
   return (
-    <View>
-      <Text>Hello Word!</Text>
+    <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
+      <Text style={{fontSize: 20, fontFamily: 'Roboto-Bold'}}>Shopping app</Text>
     </View>
-  )
+  );
 }
 
 export default App
